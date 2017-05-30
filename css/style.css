@@ -4,31 +4,53 @@ body {
 	line-height: 1.5;
 	font-family: 'Lobster', cursive;
 }
-main h1{
+.logotipo{
+	width: 60%;
+	height: 300px;
+	margin: 20px 200px;
+}
+h1,h2 {
+	font-family: 'Lobster', cursive;
+}
+.titulo-principal{
 	font-size: 60px;
 	background-color: rgb(223, 108, 117);
 	text-align: center;
 	font-family: 'Lobster', cursive;
 	padding: 20px;
-	margin: 0px;
+	border-bottom: 10px solid white;
+
+	
 			}
 h2{
 	font-size: 40px;
 	background-color: rgb(223, 108, 117);
 	font-family: 'Lobster', cursive;
 	text-align: center;
+	border-bottom: 10px solid white;
 
 			}
+.subtitulo{
+	clear: both;
+}
 p{
 	font-family: 'Lobster', cursive;
 	font-size: 30px;
 	color:black;
-	text-align: justify;
+	text-align: center;
 	margin: 20px 0;
 
 
 }
-blockquote{
+.texto_final{
+	font-family: 'Lobster', cursive;
+	font-size: 30px;
+	color:black;
+	text-align: center;
+	
+}
+.citacao {
+	float: right;
 	background-color: rgb(190,190,190);
 	padding: 16px;
 	border: 10px solid #CDCDCD;
@@ -37,22 +59,84 @@ blockquote{
 	box-shadow: border-box;
 	box-sizing: border-box;
 	margin: 20px 40px;
+	
 
 }
-main img{
 
 
-}
 cite{
+	float: right;
+	clear: both;
 	color:black;
+	font-style: italic;
+	
+	
 }
-aside{
+.rodape{
+	clear: both;
+	border-top-width: 10px;
+	border-top-style: solid;
+	border-top-color: white;
+	position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+	background-color: rgb(223, 108, 117);
+}
+main{
+	float: left;
+	padding-bottom: 80px;
+	width: 85%
+
+
+	
+}
+.foto-dayane{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 167px;
+	right: 0px;
+	border-width: 10px;
+ 	border-style:solid;
+ 	border-color:white;
+	
+
+}
+.navegacao-site{
+	float: right;
 	background-color: rgb(223, 108, 117);
 	color: #F2FFFC;
 	text-align: center;
-
+		border-width: 10px;
+ 	border-style:solid;
+ 	border-color:white;
+ 	box-sizing: border-box;
+ 	width: 15%;
+ 	height: 928px;
+    position: relative;
+    top: 480px;
+ 	
+   
 }
-aside li{
+.redes-sociais li{
 	display: inline-block;
 	height: 60px;
+
 }
+
+.redes-sociais a{
+	width: 57px;
+	height: 57px;
+	display: inline-block;
+	text-indent: -9999px;
+}
+.facebook{
+	background-image: url(../css/imagens/apple-touch-icon-precomposed.png);
+}
+.instagram{
+	background-image: url(../css/imagens/inst.png);
+}
+
+
+	
