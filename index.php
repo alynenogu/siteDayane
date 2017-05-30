@@ -45,6 +45,11 @@
 		</blockquote>
 
 		<h2 class="subtitulo"> Experiências </h2>
+		
+		<blockquote class="citacao-final">
+			<p>Uma maquiadora estudiosa!</p>
+			<cite>Fulano de Tal, Rio de Janeiro</cite>
+		</blockquote>
 		<p class="texto_final">  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a sem non ex tristique rutrum.Proin bibendum viverra felis, sed viverra velit aliquam id. 
 	 Proin bibendum viverra felis, sed viverra velit aliquam id. 
 	 Cras eget nunc lacus. In viverra purus eget pellentesque consectetur.
@@ -52,10 +57,7 @@
 	  Integer est neque, laoreet vitae egestas at, dignissim eu dolor. 
 	  Praesent semper ex ut sapien scelerisque finibus. 
 </p>
-	<blockquote class="citacao">
-			<p>Uma maquiadora estudiosa!</p>
-			<cite>Fulano de Tal, Rio de Janeiro</cite>
-		</blockquote>
+	
 		
 	
 		</main>
@@ -70,7 +72,7 @@
 <li><a href="#">Home</a></li>
 <li><a href="#">Fotos dos meus trabalhos</a></li>
 <li><a href="bio.html">Sobre mim</a></li>
-<li><a href="contato.html">Contato</a></li>
+<li><a href="contato-formulario.php">Contato</a></li>
 
 
 
